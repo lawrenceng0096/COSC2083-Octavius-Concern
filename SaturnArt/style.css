@@ -52,7 +52,7 @@ div.gallery img {
 }
   
 div.desc {
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -79,3 +79,57 @@ div.desc {
     top: 300px;
     left: 400px;
 }
+
+button{
+
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 80px;
+    border-color: yellow;
+    text-align: center;
+    margin: 10px 2px;
+    padding: 25px;
+}
+
+.menuList{
+
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+
+} /* [1] */
+
+.menu{
+
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px 32px;
+    width: 20%;
+    height: 50px;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    border-color: yellow;
+    margin: 10px 2px;
+
+  } /* [1] */
+
+.active:after {
+
+    content: "\2212";
+    font-size: 16px;
+    float: right;
+
+} /* [1] */
+
+/*
+Referecnes:
+
+[1] Refnes Data. "How TO - Collapse" W3Schools website. Accessed: Jan. 13, 2024. [Online]. 
+Available: https://www.w3schools.com/howto/howto_js_collapsible.asp.
+
+*/
